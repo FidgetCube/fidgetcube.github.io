@@ -92,10 +92,12 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         <span class="w3-xlarge">5+</span><br>
         HTB box's pwned
       </div>
-      <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">1000+</span><br>
-        Happy Clients
+      <!--
+	    <div class="w3-quarter w3-section">
+            <span class="w3-xlarge">1000+</span><br>
+            Happy Clients
       </div>
+      -->
       <div class="w3-quarter w3-section">
         <span class="w3-xlarge">150+</span><br>
         Meetings that should have been an email
@@ -195,8 +197,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       <!-- <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p> -->
       <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: jhmollison@hotmail.com</p>
     </div><br>
-    <p>Let's get in touch. Send me a message:</p>
 
+    <!--
+    <p>Let's get in touch. Send me a message:</p>
     <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
@@ -208,12 +211,13 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
         </button>
       </p>
     </form>
+    -->
+	  
   <!-- End Contact Section -->
   </div>
   
     <!-- Footer -->
   <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-    <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
     <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
   <!-- End footer -->
@@ -224,44 +228,3 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 </body>
 </html>
-
-<!-- Page template so far
-<!DOCTYPE html>
-<html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="/css/main.css"
-	</head>
-	
-	<body>
-		<h1>Writeups Landing Page</h1>
-		
-		
-		<div>
-			<p> Some menus and content will go here</p>
-		</div>
-		<footer>
-    			<ul>
-				<li><a href="mailto:jhmollison@hotmail.com">email</a></li>
-			</ul>
-		</footer>
-	</body>
-
-</html>
--->	
-	
-	
-	
-<!-- Template for working with Jekyll
----
-layout: default
-title: FidgetCubes Writeups
----
-	<h1>{{ page.title }}</h1>
-	<h1>This is the writeups landing page</h1>
-	<ul class="posts">
-
-	  {% for post in site.posts %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
-	</ul>
--->
